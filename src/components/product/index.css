@@ -1,0 +1,25 @@
+.product-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 10px;
+}
+
+.cart-button{
+    color: burlywood;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: none;
+    border-color: burlywood;
+}
+
+.cart-button:hover{
+    background-color: brown;
+}
+
+.product-title{
+    max-width:175px;
+    word-wrap:break-word;
+
+}
